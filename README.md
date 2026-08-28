@@ -40,25 +40,25 @@ python API.py
 
 ```bash
 # API directory / index
-curl http://localhost:880/api/v3
+curl http://api.dvssvc.site/api/v3
 
 # Current time
-curl http://localhost:880/api/v3/time
+curl http://api.dvssvc.site/api/v3/time
 
 # Weather by city
-curl "http://localhost:880/api/v3/weather?city=Beijing"
+curl "http://api.dvssvc.site/api/v3/weather?city=Beijing"
 
 # Weather by adcode
-curl "http://localhost:880/api/v3/weather?adcode=110000"
+curl "http://api.dvssvc.site/api/v3/weather?adcode=110000"
 
 # Phone number lookup
-curl "http://localhost:880/api/v3/phone?phone=13800138000"
+curl "http://api.dvssvc.site/api/v3/phone?phone=13800138000"
 
 # Your public IP
-curl "http://localhost:880/api/v3/ip/me"
+curl "http://api.dvssvc.site/api/v3/ip/me"
 
 # IP geolocation
-curl "http://localhost:880/api/v3/ip?ip=8.8.8.8"
+curl "http://api.dvssvc.site/api/v3/ip?ip=8.8.8.8"
 ```
 
 ---
